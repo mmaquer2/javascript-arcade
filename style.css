@@ -1,0 +1,43 @@
+html {
+
+    background-color: black;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+
+
+
+}
+
+
+#home_container {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    border-radius: 30px;
+    grid-template: "head head head"
+                    "main main main"
+                    "foot foot foot";
+}
+
+
+#head {
+    grid-area: head; height: 100px;
+}
+
+#main {grid-area:main; height: 600px;}
+
+#foot { grid-area:foot;height: 250px; }
+
+
+#game {
+    border:white;
+    border-style: solid;
+    margin-top: 50px;
+    height: 300px;
+    width: 500px;
+    display:inline-block;
+
+}
