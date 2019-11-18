@@ -9,6 +9,16 @@ html {
 
 }
 
+a {
+
+    text-decoration: none;
+    color:white;
+    
+}
+a:hover{
+
+    color:red;
+}
 
 #home_container {
 
@@ -27,9 +37,9 @@ html {
     grid-area: head; height: 100px;
 }
 
-#main {grid-area:main; height: 600px;}
+#main {grid-area:main; height: 800px;}
 
-#foot { grid-area:foot;height: 250px; }
+#foot { grid-area:foot;height: 150px; }
 
 
 #game {
