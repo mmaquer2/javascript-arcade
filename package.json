@@ -1,14 +1,24 @@
 {
   "name": "javascript-arcade",
   "version": "1.0.0",
-  "description": "",
+  "description": "- recreating classic arcade games using vanilla javaScript and canvas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy" : "surge --project ./ --domain javascriptarcadetest.surge.sh"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "surge": "^0.21.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmaquer2/javascript-arcade.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmaquer2/javascript-arcade/issues"
+  },
+  "homepage": "https://github.com/mmaquer2/javascript-arcade#readme"
 }
