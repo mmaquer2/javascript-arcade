@@ -37,7 +37,7 @@ a:hover{
     grid-area: head; height: 100px;
 }
 
-#main {grid-area:main; height: 800px;}
+#main {grid-area:main; height: 1200px;}
 
 #foot { grid-area:foot;height: 150px; }
 
